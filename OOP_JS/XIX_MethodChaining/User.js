@@ -3,7 +3,6 @@ class User {
     this.name = name;
     this.loggedIn = false;
   }
-
   login() {
     this.loggedIn = true;
     console.log(`${this.name} logged in.`);

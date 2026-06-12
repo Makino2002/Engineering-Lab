@@ -1,4 +1,4 @@
-const Customer = require("./customer");
+import Customer from "./Customer.js";
 class PremiumCustomer extends Customer {
   constructor(name, age, address, phone, membershipLevel) {
     super(name, age, address, phone);
